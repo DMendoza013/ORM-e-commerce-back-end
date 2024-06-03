@@ -16,3 +16,4 @@ sequelize.sync().then(() => {
   app.listen(PORT, () => {console.log(`App listening on port ${PORT}!`);});
 })
 
+// fill in DB_USER and DB_PASSWORD in .env.EXAMPLE and change the file name to .env
